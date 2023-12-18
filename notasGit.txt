@@ -2,6 +2,17 @@ Comando para GIT
 
 git init => Inicaliza un poyecto con git (Es un requerimiento)
 git status => Indica el etado de un proyecto en git (commit, pull, etc)
-git add nombreArchivo => Agrega archivos previos a la carga de git
+git add nombreArchivo => Agrega un archivo previos a la carga de git
+git add . => Agrega todos los archivo dentro de la ruta actual a la lista de carga previa del repositorio
 git rm nombreArchivo => Quita el archivo de la lista previa a la carga (usado en caso de equivocacion al seleccionar el archivo)
 git rm --cache nombreArchivo => Quita definitivamente el archivo de la memoria cache de la lita previa 
+git commit -m "mensaje de cambio" => Realiza el envio de los cambios al repositorio 
+git config => configuracion de git
+git config --global user.name "Nombresuario" => Agrega el nombre del usuario a las configuraciones
+git config --global user.email "mail@mail.com" > Agrega el email del usuario a las configuraciones
+git config --list => Muestra el listado de las configuraciones
+git log "nombreArchivo" => Muestra el hitorial del nombreArchivo
+git show "nombreArchivo" => Muestra los cambios del contenido del archivo
+git diff "tagCommit" "tagCommitComparar" => Muestra los cambios de contenido del archivo de un tagCommit definido sobre otro mas antiguo
+tagCommit => Lo podemos obtener del comando git log (Ej. b69c86146930a46c9497be057054c3bf715aba5f)
+git reset "tagCommit" --hard => Revierte los cabios a la version del tagCommit seleccionado, se borra todo el avance hasta este punto
