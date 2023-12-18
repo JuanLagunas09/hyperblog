@@ -12,7 +12,9 @@ git config --global user.name "Nombresuario" => Agrega el nombre del usuario a l
 git config --global user.email "mail@mail.com" > Agrega el email del usuario a las configuraciones
 git config --list => Muestra el listado de las configuraciones
 git log "nombreArchivo" => Muestra el hitorial del nombreArchivo
+git log --stat => Muesta una comparacion de los cambios en cada commit (salir con la letra q)
 git show "nombreArchivo" => Muestra los cambios del contenido del archivo
 git diff "tagCommit" "tagCommitComparar" => Muestra los cambios de contenido del archivo de un tagCommit definido sobre otro mas antiguo
 tagCommit => Lo podemos obtener del comando git log (Ej. b69c86146930a46c9497be057054c3bf715aba5f)
 git reset "tagCommit" --hard => Revierte los cabios a la version del tagCommit seleccionado, se borra todo el avance hasta este punto
+git checkout "tagCommit" nombreArchivo => Trae la version del arhivo en epecifico del commit seleccionado
