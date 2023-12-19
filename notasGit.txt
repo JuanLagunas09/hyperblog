@@ -17,4 +17,9 @@ git show "nombreArchivo" => Muestra los cambios del contenido del archivo
 git diff "tagCommit" "tagCommitComparar" => Muestra los cambios de contenido del archivo de un tagCommit definido sobre otro mas antiguo
 tagCommit => Lo podemos obtener del comando git log (Ej. b69c86146930a46c9497be057054c3bf715aba5f)
 git reset "tagCommit" --hard => Revierte los cabios a la version del tagCommit seleccionado, se borra todo el avance hasta este punto
-git checkout "tagCommit" nombreArchivo => Trae la version del arhivo en epecifico del commit seleccionado
+git checkout "tagCommit o master" nombreArchivo => Trae la version del arhivo en epecifico del commit seleccionado (para aplicar el cambio del checkout o la rama mater es necesario hacer commit)
+
+git clone "url" => Clona repositorio remoto
+git push => envia los cambios al repositorio remoto
+git pull => trae la version mas reciente del repositorio remoto
+
