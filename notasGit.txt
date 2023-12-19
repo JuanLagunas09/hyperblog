@@ -23,5 +23,5 @@ git clone "url" => Clona repositorio remoto
 git push => envia los cambios al repositorio remoto
 git pull => trae la version mas reciente del repositorio remoto
 
-git branch "nombreRama" => Crea una rama
-git checkout "nombreRama" => cambio de rama
+git merge "nombreRama" => fuciona ramas, trae los cambios de la rama ngresada a la rama actual
+git branch => enlista las ramas creadas
