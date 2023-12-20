@@ -25,3 +25,7 @@ git pull => trae la version mas reciente del repositorio remoto
 
 git merge "nombreRama" => fuciona ramas, trae los cambios de la rama ngresada a la rama actual
 git branch => enlista las ramas creadas
+
+ssh-keygen -t rsa -b 4096 -C "lagunasjuan_isc09@hotmail.com" => Genera una llave ssh 
+eval $(ssh-agent -s) => Valida que el servicio de SSH este corriendo
+ssh-add /c/Users/Lagunas/.ssh/id_rsa => Agrega la llave privada al servicio de SSH
