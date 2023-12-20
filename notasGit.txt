@@ -26,7 +26,7 @@ git pull => trae la version mas reciente del repositorio remoto
 git merge "nombreRama" => fuciona ramas, trae los cambios de la rama ngresada a la rama actual
 git branch => enlista las ramas creadas
 
-git remote add origin "URLGit" => crea una instancia del repositorio remoto
+git remote add origin "URLGit" => crea una instancia del repositorio remoto+
 git branch -m main => Define la rama main como la rama principal
 git pull origin main --allow-unrelated-histories => Conbina las historias de los nuevos repositorios remotos
 git pull origin main => Trae los cambios del repositorio remoto
