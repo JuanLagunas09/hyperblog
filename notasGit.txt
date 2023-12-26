@@ -31,3 +31,8 @@ git branch -m main => Define la rama main como la rama principal
 git pull origin main --allow-unrelated-histories => Conbina las historias de los nuevos repositorios remotos
 git pull origin main => Trae los cambios del repositorio remoto
 git push origin main => Envia los cambios del repositorio remoto
+
+ssh-keygen -t rsa -b 4096 -C "lagunasjuan_isc09@hotmail.com" => Genera una llave ssh 
+eval $(ssh-agent -s) => Valida que el servicio de SSH este corriendo
+ssh-add /c/Users/Lagunas/.ssh/id_rsa => Agrega la llave privada al servicio de SSH
+
